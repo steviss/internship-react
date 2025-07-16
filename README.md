@@ -14,6 +14,10 @@
 
 ## Scripts
 
+`yarn install`
+
+Runs Volta, installs necessary Node and Yarn, based on the `volta` object in the `package.json` file.
+
 `yarn dev`
 
 Starts the Vite development server. Launches your app in development mode with hot module replacement (HMR). Fast reloads and instant feedback during coding. Useful for local development.
