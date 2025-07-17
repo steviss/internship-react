@@ -46,16 +46,6 @@ export default tseslint.config(
           format: ['camelCase', 'PascalCase'],
         },
         {
-          selector: 'property',
-
-          filter: {
-            regex: '^_oneall$',
-            match: true,
-          },
-
-          format: null,
-        },
-        {
           selector: 'variable',
           types: ['boolean'],
           prefix: ['is', 'should', 'has', 'IS'],
